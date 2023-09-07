@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "content": "“Perfektní komunikace a bezchybná práce. Radimovi nápady a realizace mnohdy předčili naše očekávání. Spolupráci s ním můžeme jen doporučit.”",
+    "client": "Jan Krejčík",
+    "project": "Ideon Pardubice",
+    "profession": "Manažer společenských akcí a výstav",
+    "clientSrc": "/img/jan_krejcik_linked_in_testi.webp",
+    "projectSrc": "/img/project-ideon-pardubice.webp",
+    "stars": [
+      { "id": 1, "fill": true },
+      { "id": 2, "fill": true },
+      { "id": 3, "fill": true },
+      { "id": 4, "fill": true },
+      { "id": 5, "fill": true }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "“Známe Radima od roku 2023, kdy nám vytvořil a začal spravovat náš nový web, který jsme potřebovali pro naši další expanzi. V Radimovi jsme získali web-designéra, který umí dodávat špičkové a profesionální řešení za cenově rozumných podmínek.”",
+    "client": "Ing. Pavel Mencl",
+    "project": "Asig Consult Audit",
+    "profession": "CEO Asig Consult Audit",
+    "clientSrc": "/img/pavel_mencl_profile.webp",
+    "projectSrc": "/img/project-asig-consult.webp",
+    "stars": [
+      { "id": 1, "fill": true },
+      { "id": 2, "fill": true },
+      { "id": 3, "fill": true },
+      { "id": 4, "fill": true },
+      { "id": 5, "fill": true }
+    ]
+  }
+]

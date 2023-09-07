@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "BsGraphUpArrow",
+    "title": "Vyšší míra konverze",
+    "content": "Mým hlavním cílem je zajistit, aby váš web nebyl jen pouhou vizitkou na internetu, ale aby generoval konkrétní výsledky."
+  },
+  {
+    "id": 2,
+    "icon": "BsWindowSidebar",
+    "title": "Profesionální a moderní design",
+    "content": "Snažím se neustále sledovat aktuální trendy, aby byl výsledkem nejen webový design, který je vizuálně atraktivní, ale také plně funkční."
+  },
+  {
+    "id": 3,
+    "icon": "BsSpeedometer",
+    "title": "Rychlost a výkon",
+    "content": "Webová stránka musí být rychlá a spolehlivá. Zajistím, aby vaše stránky byly rychlé pro optimální uživatelskou zkušenost."
+  },
+  {
+    "id": 4,
+    "icon": "BsAlarm",
+    "title": "Bleskové dodání",
+    "content": "Věřím, že čas je jedním z nejcennějších zdrojů, a proto jsem se rozhodli vám ho ušetřit, abyste mohli pokračovat ve svém růstu a úspěchu."
+  }
+]

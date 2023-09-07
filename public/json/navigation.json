@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "path": "/#reference",
+    "content": "Reference"
+  },
+  {
+    "id": 2,
+    "path": "/#o-mne",
+    "content": "O mně"
+  },
+  {
+    "id": 3,
+    "path": "/#kontakt",
+    "content": "Kontakt"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "src": "/svg/clients/ideon-pardubice-logo.svg",
+    "name": "Ideon Pardubice"
+  },
+  {
+    "id": 2,
+    "src": "/svg/clients/asig-consult-logo.svg",
+    "name": "Asig Consult Audit"
+  },
+  {
+    "id": 3,
+    "src": "/svg/clients/mladi-tvori-logo.svg",
+    "name": "Mladí tvoří"
+  },
+  {
+    "id": 4,
+    "src": "/svg/clients/costa-paradiso-logo.svg",
+    "name": "Costa Paradiso"
+  }
+]
