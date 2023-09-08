@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+import { redirect } from 'next/navigation';
 
 // models
 import Offer from '@/models/Offer';
@@ -26,5 +27,9 @@ export async function handleEmail(formData: FormData) {
   const offer = Object.fromEntries(formData.entries()) as Offer;
   const { subject, text } = prepareEmail(offer);
 
-  await sendEmail(transporter, SENDER, RECIPIENT, subject, text);
+  const success = await sendEmail(transporter, SENDER, RECIPIENT, subject, text);
+
+  function handleSuccess(value: boolean) { redirect(`/success?value=${value}`) };
+
+  handleSuccess(success);
 }
