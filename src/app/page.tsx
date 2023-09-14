@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic";
 
 // public
 import logo from 'public/svg/logo-semerak.svg';
@@ -9,9 +10,9 @@ import Navigation from "@/components/layouts/Navigation";
 import Footer from "@/components/layouts/Footer";
 import Hero from "@/components/sections/Hero";
 import Benefits from "@/components/sections/Benefits";
-import Process from "@/components/sections/Process";
-import Testimonials from "@/components/sections/Testimonials";
-import Contact from "@/components/sections/Contact";
+const Process = dynamic(() => import('@/components/sections/Process'));
+const Testimonials = dynamic(() => import('@/components/sections/Testimonials'));
+const Contact = dynamic(() => import('@/components/sections/Contact'));
 
 function Home() {
   return (

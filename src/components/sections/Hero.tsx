@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 // public
 import heroImg from 'public/img/client-design-example.webp';
@@ -27,18 +28,18 @@ function Hero() {
             vytvořit web, který objasní vaše sdělení, vygeneruje více klientů a zvýší vaše zisky.
           </p>
           <div className="flex items-center gap-4 mt-4">
-            <a 
+            <Link 
               href='/#kontakt' 
               className={`${buttonVariants({ variant: "default" })} bg-indigo-500 transition-short hover:bg-indigo-600`}
             >
               Návrh zdarma
-            </a>
-            <a 
+            </Link>
+            <Link 
               href='/#reference'
               className={`${buttonVariants({ variant: "default" })} bg-gray-700 transition-short hover:bg-gray-800`}
             >
               Moje práce
-            </a>
+            </Link>
           </div>
         </article>
         <article>

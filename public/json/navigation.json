@@ -6,11 +6,6 @@
   },
   {
     "id": 2,
-    "path": "/#o-mne",
-    "content": "O mně"
-  },
-  {
-    "id": 3,
     "path": "/#kontakt",
     "content": "Kontakt"
   }

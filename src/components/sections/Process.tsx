@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 // icons
 import { IconType } from 'react-icons';
@@ -54,12 +55,12 @@ function Process() {
               </div>
 
               {process.label && (
-                <a 
+                <Link 
                   href='/#kontakt'
                   className='absolute top-3 right-0 text-sm px-3 py-1 text-white bg-indigo-600 rounded xl:right-3'
                 >
                   {process.label}
-                </a>
+                </Link>
               )}
             </article>
           )
@@ -71,7 +72,7 @@ function Process() {
             Technologie
           </h1>
         </article>
-        <section className='content-sec grid grid-cols-3 gap-5 pt-0 sm:grid-cols-4 sm:gap-10 xl:grid-cols-6 xl:gap-12'>
+        <section className='content-sec grid grid-cols-3 gap-5 pt-0 sm:grid-cols-4 sm:gap-10 xl:gap-12'>
           {technologies.map(tech => (
             <article key={tech.id} className='grid relative'>
               <TooltipProvider delayDuration={100}>

@@ -11,51 +11,31 @@
   },
   {
     "id": 3,
-    "src": "/svg/techs/tech-nodejs.svg",
-    "name": "Node.js"
-  },
-  {
-    "id": 4,
     "src": "/svg/techs/tech-nextjs.svg",
     "name": "Next.js"
   },
   {
-    "id": 5,
-    "src": "/svg/techs/tech-sass.svg",
-    "name": "Sass"
-  },
-  {
-    "id": 6,
+    "id": 4,
     "src": "/svg/techs/tech-tailwind.svg",
     "name": "Tailwind CSS"
   },
   {
-    "id": 7,
+    "id": 5,
     "src": "/svg/techs/tech-shadcn.svg",
     "name": "Shadcn UI"
   },
   {
-    "id": 8,
-    "src": "/svg/techs/tech-vite.svg",
-    "name": "Vite"
-  },
-  {
-    "id": 9,
-    "src": "/svg/techs/tech-storybook.svg",
-    "name": "Storybook"
-  },
-  {
-    "id": 10,
+    "id": 6,
     "src": "/svg/techs/tech-react-query.svg",
     "name": "React Query"
   },
   {
-    "id": 11,
+    "id": 7,
     "src": "/svg/techs/tech-prisma.svg",
     "name": "Prisma"
   },
   {
-    "id": 12,
+    "id": 8,
     "src": "/svg/techs/tech-postgresql.svg",
     "name": "PostgreSQL"
   }
