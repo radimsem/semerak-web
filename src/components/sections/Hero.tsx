@@ -21,7 +21,7 @@ function Hero() {
         <article className="flex flex-col gap-2 lg:max-w-lg xl:gap-3">
           <h1 className="font-heading text-3xl font-semibold xl:text-4xl xl:leading-tight">
             Udělejme váš web tak,
-            aby <span className="heading-underline">fungoval</span> pro vaši firmu
+            aby <span className="font-heading heading-underline">fungoval</span> pro vaši firmu
           </h1>
           <p>
             Pomáhám majitelům firem a podnikatelům na volné noze, 
@@ -57,11 +57,13 @@ function Hero() {
         {clients.map(client => (
             <article key={client.id} className='relative grid max-w-fit justify-self-center'>
               <figure className='relative justify-self-center'>
-                <img 
+                <Image 
                   src={client.src}
                   alt={`Logo klienta ${client.name}`}
-                  className="grayscale opacity-80 h-[50px]"
+                  width={100}
                   height={50}
+                  layout='responsive'
+                  className="grayscale opacity-80 !h-[50px]"
                 />
               </figure>
             </article>

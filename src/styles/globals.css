@@ -33,7 +33,10 @@
 @layer utilities {
   /* font */  
   .font-heading {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-heading);
+  }
+  .font-doc {
+    font-family: var(--font-doc);
   }
 
   /* utils */
@@ -121,7 +124,7 @@
  
 @layer base {
   * {
-    @apply border-border text-gray-800
+    @apply font-doc border-border text-gray-800
   }
   body {
     @apply bg-background text-foreground

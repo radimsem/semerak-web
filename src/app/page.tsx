@@ -6,10 +6,10 @@ import dynamic from "next/dynamic";
 import logo from 'public/svg/logo-semerak.svg';
 
 // components
-import Navigation from "@/components/layouts/Navigation";
+const Navigation = dynamic(() => import('@/components/layouts/Navigation'));
 import Footer from "@/components/layouts/Footer";
 import Hero from "@/components/sections/Hero";
-import Benefits from "@/components/sections/Benefits";
+const Benefits = dynamic(() => import('@/components/sections/Benefits'));
 const Process = dynamic(() => import('@/components/sections/Process'));
 const Testimonials = dynamic(() => import('@/components/sections/Testimonials'));
 const Contact = dynamic(() => import('@/components/sections/Contact'));
