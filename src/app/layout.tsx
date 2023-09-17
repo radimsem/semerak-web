@@ -47,6 +47,6 @@ export const metadata: Metadata = {
     title: 'Expert na strategii webových stránek - Radim Semerák',
     description: 'Zdravím! Jsem Radim, mladý a energický student se zálibou ve webdesignu. Rád bych vám představil moji vizi, ale než se do toho pustím, chci vás nejprve poznat!',
     url: 'https://www.radimsemerak.cz/',
-    images: 'https://www.radimsemerak.cz/favicon.ico'
+    images: 'https://www.radimsemerak.cz/img/background/og-image.png'
   }
 }

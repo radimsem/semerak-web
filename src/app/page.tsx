@@ -17,7 +17,7 @@ const Contact = dynamic(() => import('@/components/sections/Contact'));
 function Home() {
   return (
     <>
-      <header className='flex justify-between items-center px-5 xs:px-8 sm:py-2 md:px-16 xl:px-32'>
+      <header className='flex justify-between items-center px-5 py-2 xs:px-8 md:px-16 xl:px-32'>
         <div className="logo">
           <Link href="/">
             <figure>

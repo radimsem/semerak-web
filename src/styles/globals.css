@@ -26,7 +26,7 @@
     @apply absolute text-[.7rem] uppercase tracking-wider -top-2 left-2 px-1 bg-white
   }
   .contact-input {
-    @apply text-xs w-full h-12 px-3 border border-gray-100 rounded-lg outline-none transition-short focus:border-indigo-200 focus:outline-none
+    @apply text-xs w-full h-12 px-3 border border-gray-100 rounded-lg outline-none transition-colors focus:border-indigo-200 focus:outline-none
   }
 }
 
@@ -46,7 +46,7 @@
 
   /* others */
   .process-sec {
-    background-image: url(/img/process-background.webp);
+    background-image: url(/img/background/process-background.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

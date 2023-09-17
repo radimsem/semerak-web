@@ -3,9 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-// public
-import heroImg from 'public/img/client-design-example.webp';
-
 // ui
 import { buttonVariants } from "../ui/button";
 
@@ -45,9 +42,10 @@ function Hero() {
         <article>
           <figure>
             <Image 
-              src={heroImg} 
+              src='/img/projects/client-design-example-desktop.webp'
               alt="Příklad webového projektu pro klienta na počítači a mobilu"
               width={500}
+              height={370}
             />
           </figure>
         </article>

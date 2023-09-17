@@ -5,8 +5,8 @@
     "client": "Jan Krejčík",
     "project": "Ideon Pardubice",
     "profession": "Manažer společenských akcí a výstav",
-    "clientSrc": "/img/jan_krejcik_linked_in_testi.webp",
-    "projectSrc": "/img/project-ideon-pardubice.webp",
+    "clientSrc": "/img/clients/jan_krejcik_linked_in_testi.webp",
+    "projectSrc": "/img/projects/project-ideon-pardubice-desktop.webp",
     "stars": [
       { "id": 1, "fill": true },
       { "id": 2, "fill": true },
@@ -21,8 +21,8 @@
     "client": "Ing. Pavel Mencl",
     "project": "Asig Consult Audit",
     "profession": "CEO Asig Consult Audit",
-    "clientSrc": "/img/pavel_mencl_profile.webp",
-    "projectSrc": "/img/project-asig-consult.webp",
+    "clientSrc": "/img/clients/pavel_mencl_profile.webp",
+    "projectSrc": "/img/projects/project-asig-consult-desktop.webp",
     "stars": [
       { "id": 1, "fill": true },
       { "id": 2, "fill": true },

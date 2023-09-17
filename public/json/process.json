@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "icon": "BsChatText",
+    "icon": "chat-text",
     "title": "Představení",
     "content": "Prvním krokem je mi představit váš projekt, potřeby a cíle. Chci pochopit vaši značku, vaše očekávání a jakým směrem byste se rádi ubírali."
   },
   {
     "id": 2,
-    "icon": "BsBrush",
+    "icon": "brush",
     "title": "Návrh webu",
     "content": "Po seznámení s vašimi potřebami začnu pracovat na návrhu, který doručím do 3 pracovních dnů a bude zahrnovat kroky potřebné k dosažení vašich cílů.",
     "label": "zdarma"
   },
   {
     "id": 3,
-    "icon": "BsPuzzle",
+    "icon": "puzzle",
     "title": "Vývoj a Realizace",
     "content": "Jakmile budete spokojeni s návrhem, přistoupím k tvorbě webových stránek, grafického designu, programování a dalším potřebných krokům."
   },
   {
     "id": 4,
-    "icon": "BsBarChartLine",
+    "icon": "bar-chart-line",
     "title": "Nasazení projektu",
     "content": "Po dokončení vám představím finální výsledek. Zajistím, aby vám nový web plně vyhovoval, pověsíme finální dílo na internet a vy budete prodávat!"
   }

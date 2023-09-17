@@ -71,6 +71,7 @@ function Contact() {
           <div className="flex items-center gap-2">
             <Checkbox 
               id="gdpr"
+              aria-label="Contact Form GDPR Checkbox"
               className="border-gray-500 checked:bg-indigo-300" 
             />
             <label 
@@ -82,7 +83,7 @@ function Contact() {
           </div>
           <button 
             type="submit"
-            className="contact-input text-white bg-indigo-400 border-none transition-short hover:bg-indigo-500"
+            className="contact-input text-white bg-indigo-400 border-none transition-colors hover:bg-indigo-500"
           >
             Odeslat
           </button>

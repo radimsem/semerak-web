@@ -16,26 +16,36 @@
   },
   {
     "id": 4,
+    "src": "/svg/techs/tech-github.svg",
+    "name": "GitHub"
+  },
+  {
+    "id": 5,
+    "src": "/svg/techs/tech-vercel.svg",
+    "name": "Vercel"
+  },
+  {
+    "id": 6,
     "src": "/svg/techs/tech-tailwind.svg",
     "name": "Tailwind CSS"
   },
   {
-    "id": 5,
+    "id": 7,
     "src": "/svg/techs/tech-shadcn.svg",
     "name": "Shadcn UI"
   },
   {
-    "id": 6,
+    "id": 8,
     "src": "/svg/techs/tech-react-query.svg",
     "name": "React Query"
   },
   {
-    "id": 7,
+    "id": 9,
     "src": "/svg/techs/tech-prisma.svg",
     "name": "Prisma"
   },
   {
-    "id": 8,
+    "id": 10,
     "src": "/svg/techs/tech-postgresql.svg",
     "name": "PostgreSQL"
   }
