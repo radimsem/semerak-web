@@ -27,13 +27,13 @@ function Hero() {
           <div className="flex items-center gap-4 mt-4">
             <Link 
               href='/#kontakt' 
-              className={`${buttonVariants({ variant: "default" })} bg-indigo-500 transition-short hover:bg-indigo-600`}
+              className={`${buttonVariants({ variant: "default" })} bg-indigo-500 hover:bg-indigo-600`}
             >
               Návrh zdarma
             </Link>
             <Link 
               href='/#reference'
-              className={`${buttonVariants({ variant: "default" })} bg-gray-700 transition-short hover:bg-gray-800`}
+              className={`${buttonVariants({ variant: "default" })} bg-gray-700 hover:bg-gray-800`}
             >
               Moje práce
             </Link>
