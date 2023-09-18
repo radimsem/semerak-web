@@ -2,7 +2,7 @@
 import { Checkbox } from "../ui/checkbox";
 
 // utils
-import { handleEmail } from "@/helpers/handleEmail";
+import { handleEmail } from "@/server/handleEmail";
 
 function Contact() {
   return (

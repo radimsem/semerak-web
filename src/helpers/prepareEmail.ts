@@ -8,5 +8,5 @@ export function prepareEmail(offer: Offer) {
                 Email: ${email}
                 Popis projektu ${message}`
 
-  return { subject, text };
+  return { email, subject, text };
 }
