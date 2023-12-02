@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useRef } from "react";
+
 // ui
 import { Checkbox } from "../ui/checkbox";
 
@@ -5,6 +9,21 @@ import { Checkbox } from "../ui/checkbox";
 import { handleEmail } from "@/server/handleEmail";
 
 function Contact() {
+  const [formTimer, setFormTimer] = useState(0);
+  const [errorMess, setErrorMess] = useState("");
+  const SPAM_BORDER = 5000;
+
+  const firstInput = useRef<HTMLInputElement>(null);
+
+  function handleSubmit(data: FormData) {
+    if (Date.now() - formTimer < SPAM_BORDER) {
+      setErrorMess("Formulář odeslán příliš rychle. Podezření ze spamu!");
+      return;
+    }
+
+    handleEmail(data);
+  }
+
   return (
     <section id="kontakt" className="contact-sec main-sec gap-10 mt-0 sm:items-center">
       <article className='relative flex flex-col items-center gap-3 mt-8 mb-2'>
@@ -18,9 +37,10 @@ function Contact() {
       </article>
       <article className="flex flex-col px-5 py-8 bg-white rounded-xl shadow sm:px-10 sm:py-10">
         <form 
-          action={handleEmail}
+          action={handleSubmit}
           className="flex flex-col gap-6 sm:min-w-[300px]"
         >
+          <p className="text-xs text-center text-red-500">{errorMess}</p>
           <div className="relative">
             <label 
               htmlFor="client"
@@ -34,6 +54,8 @@ function Contact() {
               id="client"
               placeholder="Vaše jméno a příjmení"
               className="contact-input"
+              ref={firstInput}
+              onFocus={() => setFormTimer(Date.now())}
               required
             />
           </div>
